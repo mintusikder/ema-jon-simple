@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./Header.css";
 import logo from "../../images/Logo.svg";
 const Header = () => {
@@ -6,10 +6,10 @@ const Header = () => {
     <nav className="header">
       <img src={logo} alt="" />
       <div>
-        <a href="/Order">Order</a>
-        <a href="/Order Review">Order Review</a>
-        <a href="/Manage Inventory">Manage Inventory</a>
-        <a href="Login">Login</a>
+        <a href="/Orders">Order</a>
+        <a href="/review">Order Review</a>
+        <a href="/inventory">Manage Inventory</a>
+        <a href="login">Login</a>
       </div>
     </nav>
   );
